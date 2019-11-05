@@ -1,0 +1,11 @@
+{% extends 'base_layout.html' %}
+{% block content %}
+    <h1>Drug list</h1>
+    <div class="drugs">
+        {% for drug in drugs %}
+            <div class="drug">
+                <h2><a href="{% url 'drugs:detail' name=drug.name %}">{{ drug.name }}</a></h2>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

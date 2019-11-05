@@ -1,1 +1,1 @@
-# PP_project
+# This is a simple pharmacy website

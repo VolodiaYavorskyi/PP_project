@@ -1,0 +1,11 @@
+{% extends 'base_layout.html' %}
+{% block content %}
+<div class="drug-detail">
+    <div class="drug">
+        <h2>{{ drug.name }}</h2>
+        <p>Description: {{ drug.description }}</p>
+        <p>Price: {{ drug.price }}$</p>
+        <p>Quantity: {{ drug.quantity }}</p>
+    </div>
+</div>
+{% endblock %}
