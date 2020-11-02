@@ -1,1 +1,1 @@
-# This is a simple pharmacy website
+# This is a simple pharmacy Django website
